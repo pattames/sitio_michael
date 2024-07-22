@@ -25,7 +25,7 @@ export default function Navbar() {
             className="menu menu-lg dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <Link href="/servicios">Servicios</Link>
+              <Link href="/categorias">Servicios</Link>
             </li>
             <li>
               <a>Reseñas</a>
@@ -37,15 +37,15 @@ export default function Navbar() {
         </div>
         <Link
           href="/"
-          className="btn btn-ghost text-md text-red-800 tracking-wider underline underline-offset-8 ml-4 md:text-lg"
+          className="btn btn-ghost text-md uppercase text-red-800 tracking-wider underline underline-offset-8 ml-4 md:text-lg"
         >
-          ASESORÍA JURÍDICA
+          Asesoría Jurídica
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-xl xl:gap-16">
           <li>
-            <Link href="/servicios">Servicios</Link>
+            <Link href="/categorias">Servicios</Link>
           </li>
           <li>
             <a>Reseñas</a>

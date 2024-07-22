@@ -18,7 +18,7 @@ export default function Home() {
         delectus sapiente laudantium beatae in officiis. Soluta, dicta adipisci
         inventore ipsum dolore molestiae dolorem.
       </p>
-      <Link href="/servicios">
+      <Link href="/categorias">
         <p className="p-4 my-14 inline-block w-auto  rounded-md border-2 border-gray-400 text-lg duration-200 hover:scale-105">
           Consulta nuestros servicios
         </p>
