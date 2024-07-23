@@ -33,7 +33,7 @@ export default function Servicio({ params }) {
           </ul>
         </div>
         <div className="text-center md:ml-4">
-          <h2 className="pt-2 text-lg">
+          <h2 className="pt-2 text-lg max-w-72 mx-auto">
             <Link
               href={`https://wa.me/${
                 abogado.telefono
@@ -43,7 +43,7 @@ export default function Servicio({ params }) {
             >
               Contacta
             </Link>{" "}
-            a nuestro especialista:
+            por WhatsApp a nuestro especialista:
           </h2>
           <Image
             src={abogado.imagen}
@@ -52,7 +52,10 @@ export default function Servicio({ params }) {
             alt={abogado.nombre}
             className="rounded-full my-4 mx-auto"
           />
-          <h1 className="font-semibold text-lg">{abogado.nombre}</h1>
+          <h3 className="font-semibold text-lg">{abogado.nombre}</h3>
+          <h4 className="tracking-wider underline underline-offset-2">
+            {abogado.titulo}
+          </h4>
           <p className="p-2 shadow-md">{abogado.descripcion}</p>
         </div>
       </div>
