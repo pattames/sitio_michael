@@ -10,6 +10,15 @@ export default function Servicio({ params }) {
       <h1 className="text-xl font-semibold underline underline-offset-4 text-gray-800">
         {categoria.titulo}
       </h1>
+      <h2 className="pt-2 text-lg text-gray-800">Contratos y documentos:</h2>
+      <ul className="max-w-2xl">
+        {categoria.documentos.map((documento) => (
+          <li className="my-4">
+            <h3 className="font-semibold text-gray-800">{documento.titulo}</h3>
+            <p>{documento.descripcion}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

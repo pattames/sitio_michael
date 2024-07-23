@@ -8,7 +8,7 @@ export default function Servicios() {
       <h1 className="text-center text-2xl font-semibold underline underline-offset-4 text-gray-800 mt-6 md:m-4">
         Categorías
       </h1>
-      <div className="max-w-7xl mx-auto flex flex-wrap">
+      <div className="max-w-5xl mx-auto flex flex-wrap">
         {categorias.map((categoria) => (
           <Link
             href={`/categorias/${categoria.id}`}
