@@ -1,6 +1,7 @@
 import categorias from "@/app/data/categorias";
 import abogados from "@/app/data/abogados";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Servicio({ params }) {
   const categoria = categorias.find(
@@ -32,7 +33,18 @@ export default function Servicio({ params }) {
           </ul>
         </div>
         <div className="text-center md:ml-4">
-          <h2 className="pt-2 text-lg">Contacta a nuestro especialista:</h2>
+          <h2 className="pt-2 text-lg">
+            <Link
+              href={`https://wa.me/${
+                abogado.telefono
+              }?text=Hola!%20Estoy%20buscando%20asesoría%20jurídica%20dentro%20del%20rubro%20"${categoria.titulo.toLocaleLowerCase()}"%20debido%20a%20`}
+              target="_blank"
+              className="underline text-blue-700"
+            >
+              Contacta
+            </Link>{" "}
+            a nuestro especialista:
+          </h2>
           <Image
             src={abogado.imagen}
             width={250}

@@ -5,6 +5,7 @@ export default [
     descripcion:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a nihil delectus sapiente laudantium beatae in officiis.",
     imagen: "/profile_pic.jpg",
+    telefono: "525586889492",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export default [
     descripcion:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a nihil delectus sapiente laudantium beatae in officiis.",
     imagen: "/profile_pic.jpg",
+    telefono: "525586889492",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export default [
     descripcion:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a nihil delectus sapiente laudantium beatae in officiis.",
     imagen: "/profile_pic.jpg",
+    telefono: "525586889492",
   },
   {
     id: 4,
@@ -26,5 +29,6 @@ export default [
     descripcion:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a nihil delectus sapiente laudantium beatae in officiis.",
     imagen: "/profile_pic.jpg",
+    telefono: "525586889492",
   },
 ];
