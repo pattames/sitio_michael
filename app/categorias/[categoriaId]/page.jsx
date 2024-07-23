@@ -1,24 +1,49 @@
 import categorias from "@/app/data/categorias";
+import abogados from "@/app/data/abogados";
+import Image from "next/image";
 
 export default function Servicio({ params }) {
   const categoria = categorias.find(
     (categoria) => categoria.id === Number(params.categoriaId)
   );
 
+  const abogado = abogados.find(
+    (abogado) => abogado.id === categoria.abogadoId
+  );
+
   return (
-    <div className="max-w-7xl mx-auto py-8 px-4 font-serif">
-      <h1 className="text-xl font-semibold underline underline-offset-4 text-gray-800">
+    <div className="max-w-7xl mx-auto py-8 px-4 font-serif text-gray-800">
+      <h1 className="text-xl font-semibold underline underline-offset-4">
         {categoria.titulo}
       </h1>
-      <h2 className="pt-2 text-lg text-gray-800">Contratos y documentos:</h2>
-      <ul className="max-w-2xl">
-        {categoria.documentos.map((documento) => (
-          <li className="my-4">
-            <h3 className="font-semibold text-gray-800">{documento.titulo}</h3>
-            <p>{documento.descripcion}</p>
-          </li>
-        ))}
-      </ul>
+      <div className="flex flex-col md:flex-row">
+        <div className="md:mr-4">
+          <h2 className="pt-2 text-lg">Contratos y documentos:</h2>
+          <ul>
+            {categoria.documentos.map((documento) => (
+              <li
+                key={documento.id}
+                className="my-4 border-gray-400 border-b-2 border-l-4 p-2"
+              >
+                <h3 className="font-semibold">{documento.titulo}</h3>
+                <p>{documento.descripcion}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="text-center md:ml-4">
+          <h2 className="pt-2 text-lg">Contacta a nuestro especialista:</h2>
+          <Image
+            src={abogado.imagen}
+            width={250}
+            height={250}
+            alt={abogado.nombre}
+            className="rounded-full my-4 mx-auto"
+          />
+          <h1 className="font-semibold text-lg">{abogado.nombre}</h1>
+          <p className="p-2 shadow-md">{abogado.descripcion}</p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -13,7 +13,7 @@ export default function Servicios() {
           <Link
             href={`/categorias/${categoria.id}`}
             key={categoria.id}
-            className="p-4 max-w-md shadow-md my-5 mx-auto z-0 duration-200 hover:scale-105"
+            className="p-4 max-w-md shadow-lg  my-5 mx-auto z-0 duration-200 hover:scale-105"
           >
             <div className="h-32 w-38 relative">
               <Image
