@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Carousel() {
   return (
-    <div className="carousel w-full">
+    <div className="carousel w-full max-w-3xl">
       {resenas.map((resena) => (
         <div
           id={`slide${resena.id}`}
