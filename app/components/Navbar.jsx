@@ -28,7 +28,7 @@ export default function Navbar() {
               <Link href="/categorias">Servicios</Link>
             </li>
             <li>
-              <a>Reseñas</a>
+              <Link href="/resenas">Reseñas</Link>
             </li>
             <li>
               <a>Nosotros</a>
@@ -48,7 +48,7 @@ export default function Navbar() {
             <Link href="/categorias">Servicios</Link>
           </li>
           <li>
-            <a>Reseñas</a>
+            <Link href="/resenas">Reseñas</Link>
           </li>
           <li>
             <a>Nosotros</a>
