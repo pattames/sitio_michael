@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Nosotros() {
   return (
-    <div className="max-w-7xl mx-auto font-serif text-center p-4">
+    <div className="max-w-7xl mx-auto font-serif text-center flex flex-wrap justify-center">
       {abogados.map((abogado) => (
-        <div>
+        <div className="m-6">
           <Image
             src={abogado.imagen}
             width={250}
@@ -17,7 +17,7 @@ export default function Nosotros() {
           <h4 className="tracking-wider underline underline-offset-2">
             {abogado.titulo}
           </h4>
-          <p className="p-2 shadow-md">{abogado.descripcion}</p>
+          <p className="p-2 shadow-md max-w-sm">{abogado.descripcion}</p>
         </div>
       ))}
     </div>

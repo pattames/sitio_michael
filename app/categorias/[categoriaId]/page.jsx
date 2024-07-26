@@ -24,7 +24,7 @@ export default function Servicio({ params }) {
             {categoria.documentos.map((documento) => (
               <li
                 key={documento.id}
-                className="my-4 border-gray-400 border-b-2 border-l-4 p-2"
+                className="my-8 border-gray-400 border-b-2 border-l-4 p-2"
               >
                 <h3 className="font-semibold">{documento.titulo}</h3>
                 <p>{documento.descripcion}</p>
