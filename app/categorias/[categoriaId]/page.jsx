@@ -45,12 +45,11 @@ export default function Servicio({ params }) {
             </Link>{" "}
             por WhatsApp a nuestro especialista:
           </h2>
-          <Image
+          <img
+            loading="lazy"
             src={abogado.imagen}
-            width={250}
-            height={250}
             alt={abogado.nombre}
-            className="rounded-full my-4 mx-auto"
+            className="w-64 h-64 object-cover object-top rounded-full my-4 mx-auto"
           />
           <h3 className="font-semibold text-lg">{abogado.nombre}</h3>
           <h4 className="tracking-wider underline underline-offset-2">

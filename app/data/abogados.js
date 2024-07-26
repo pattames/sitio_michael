@@ -5,7 +5,7 @@ export default [
     titulo: "Abogado",
     descripcion:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a nihil delectus sapiente laudantium beatae in officiis.",
-    imagen: "/profile_pic.jpg",
+    imagen: "/profilepic1.jpg",
     telefono: "525586889492",
   },
   {
@@ -14,25 +14,25 @@ export default [
     titulo: "Abogado",
     descripcion:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a nihil delectus sapiente laudantium beatae in officiis.",
-    imagen: "/profile_pic.jpg",
+    imagen: "/profilepic2.webp",
     telefono: "525586889492",
   },
   {
     id: 3,
-    nombre: "Juan Corporativo",
+    nombre: "Diego Corporativo",
     titulo: "Abogado",
     descripcion:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a nihil delectus sapiente laudantium beatae in officiis.",
-    imagen: "/profile_pic.jpg",
+    imagen: "/profilepic3.webp",
     telefono: "525586889492",
   },
   {
     id: 4,
-    nombre: "Juan Empresarial",
+    nombre: "Pablo Empresarial",
     titulo: "Abogado",
     descripcion:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a nihil delectus sapiente laudantium beatae in officiis.",
-    imagen: "/profile_pic.jpg",
+    imagen: "/profilepic4.webp",
     telefono: "525586889492",
   },
 ];

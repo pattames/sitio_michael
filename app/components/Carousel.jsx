@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Carousel() {
   return (
-    <div className="carousel w-full max-w-3xl sm:shadow-lg sm:py-5">
+    <div className="carousel w-full max-w-3xl sm:shadow-lg sm:py-5 sm:hidden">
       {resenas.map((resena) => (
         <div
           id={`slide${resena.id}`}
@@ -15,9 +15,12 @@ export default function Carousel() {
               ❮
             </Link>
           ) : (
-            <div className="p-4 my-auto bg-transparent border-transparent text-transparent shadow-none pointer-events-none">
+            <Link
+              href={`#slide${resena.id - 1}`}
+              className="p-4 my-auto invisible"
+            >
               ❮
-            </div>
+            </Link>
           )}
           <div className="text-center px-2">
             <p>"{resena.descripcion}"</p>
@@ -28,9 +31,12 @@ export default function Carousel() {
               ❯
             </Link>
           ) : (
-            <div className="p-4 my-auto bg-transparent border-transparent text-transparent shadow-none pointer-events-none">
-              ❮
-            </div>
+            <Link
+              href={`#slide${resena.id + 1}`}
+              className="p-4 my-auto invisible"
+            >
+              ❯
+            </Link>
           )}
         </div>
       ))}

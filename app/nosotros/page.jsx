@@ -1,17 +1,15 @@
 import abogados from "../data/abogados";
-import Image from "next/image";
 
 export default function Nosotros() {
   return (
     <div className="max-w-7xl mx-auto font-serif text-center flex flex-wrap justify-center">
       {abogados.map((abogado) => (
         <div className="m-6">
-          <Image
+          <img
+            loading="lazy"
             src={abogado.imagen}
-            width={250}
-            height={250}
             alt={abogado.nombre}
-            className="rounded-full my-4 mx-auto"
+            className="w-64 h-64 object-cover object-top rounded-full my-4 mx-auto"
           />
           <h3 className="font-semibold text-lg">{abogado.nombre}</h3>
           <h4 className="tracking-wider underline underline-offset-2">
