@@ -31,7 +31,7 @@ export default function Navbar() {
               <Link href="/resenas">Reseñas</Link>
             </li>
             <li>
-              <a>Nosotros</a>
+              <Link href="/nosotros">Nosotros</Link>
             </li>
           </ul>
         </div>
@@ -51,7 +51,7 @@ export default function Navbar() {
             <Link href="/resenas">Reseñas</Link>
           </li>
           <li>
-            <a>Nosotros</a>
+            <Link href="/nosotros">Nosotros</Link>
           </li>
         </ul>
       </div>

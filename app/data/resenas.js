@@ -17,4 +17,10 @@ export default [
     descripcion:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos dolores nisi pariatur consequuntur harum amet, modi iusto eveniet laudantium maxime omnis officiis totam distinctio quibusdam at unde! Quos, repellat adipisci.",
   },
+  {
+    id: 4,
+    autor: "Galicia México",
+    descripcion:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos dolores nisi pariatur consequuntur harum amet, modi iusto eveniet laudantium maxime omnis officiis totam distinctio quibusdam at unde! Quos, repellat adipisci.",
+  },
 ];
