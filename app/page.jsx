@@ -19,7 +19,7 @@ export default function Home() {
         inventore ipsum dolore molestiae dolorem.
       </p>
       <Link href="/categorias">
-        <p className="p-4 my-14 inline-block w-auto  rounded-md border-2 border-gray-500 text-lg duration-200 hover:scale-105">
+        <p className="p-4 my-14 inline-block w-auto  rounded-md border-2 border-gray-500 text-lg md:duration-200 md:hover:scale-105">
           Consulta nuestros servicios
         </p>
       </Link>
