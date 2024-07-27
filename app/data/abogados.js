@@ -1,4 +1,4 @@
-export default [
+export const abogados = [
   {
     id: 1,
     nombre: "Michael Solley",

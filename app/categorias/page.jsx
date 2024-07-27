@@ -1,5 +1,5 @@
 import Image from "next/image";
-import categorias from "../data/categorias";
+import { categorias } from "../data/categorias";
 import Link from "next/link";
 
 export default function Servicios() {

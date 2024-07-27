@@ -1,4 +1,4 @@
-import resenas from "../data/resenas";
+import { resenas } from "../data/resenas";
 import Link from "next/link";
 
 export default function Carousel() {
@@ -23,7 +23,7 @@ export default function Carousel() {
             </Link>
           )}
           <div className="text-center px-2">
-            <p>"{resena.descripcion}"</p>
+            <p>{resena.descripcion}</p>
             <h2 className="mt-4 uppercase text-gray-700">-{resena.autor}</h2>
           </div>
           {resena.id < resenas.length ? (

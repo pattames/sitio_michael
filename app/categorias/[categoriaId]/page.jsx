@@ -1,5 +1,5 @@
-import categorias from "@/app/data/categorias";
-import abogados from "@/app/data/abogados";
+import { categorias } from "@/app/data/categorias";
+import { abogados } from "@/app/data/abogados";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -1,4 +1,4 @@
-export default [
+export const categorias = [
   {
     id: 1,
     titulo: "Civil",

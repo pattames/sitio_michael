@@ -1,10 +1,10 @@
-import abogados from "../data/abogados";
+import { abogados } from "../data/abogados";
 
 export default function Nosotros() {
   return (
     <div className="max-w-7xl mx-auto font-serif text-center flex flex-wrap justify-center">
       {abogados.map((abogado) => (
-        <div className="m-6">
+        <div key={abogado.id} className="m-6">
           <img
             loading="lazy"
             src={abogado.imagen}
