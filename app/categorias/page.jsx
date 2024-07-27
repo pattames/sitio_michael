@@ -15,14 +15,13 @@ export default function Servicios() {
             key={categoria.id}
             className="p-4 max-w-md shadow-lg  my-5 mx-auto z-0 duration-200 hover:scale-105"
           >
-            <div className="h-32 w-38 relative">
-              <Image
-                src={categoria.imagen}
-                fill
-                alt={categoria.titulo}
-                className="object-cover"
-              />
-            </div>
+            <Image
+              src={categoria.imagen}
+              alt={categoria.titulo}
+              className="h-32 w-full object-cover"
+              width={700}
+              height={700}
+            />
             <h1 className="font-bold text-gray-800 text-xl my-2 ">
               {categoria.titulo}
             </h1>

@@ -7,10 +7,10 @@ export default function Home() {
       <div className="my-8 md:my-16">
         <Image
           src="/balanza3gris.png"
-          width={150}
-          height={150}
           alt="Balanza"
-          className="mx-auto w-38 md:w-56"
+          className="mx-auto w-40 md:w-56"
+          width={500}
+          height={500}
         />
       </div>
       <p className="text-xl max-w-3xl mx-auto shadow-lg  p-6">
