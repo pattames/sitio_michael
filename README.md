@@ -6,3 +6,4 @@ Notas:
 Pendientes:
 
 - Textos e imágenes de Micha
+- Nombre y dominio
