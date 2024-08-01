@@ -39,7 +39,7 @@ export default function Navbar() {
           href="/"
           className="btn btn-ghost text-md uppercase text-red-800 tracking-wider underline underline-offset-8 ml-4 md:text-lg"
         >
-          Asesoría Jurídica
+          Solley Becker
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

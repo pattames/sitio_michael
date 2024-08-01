@@ -13,10 +13,15 @@ export default function Home() {
           height={500}
         />
       </div>
+      <h1 className="text-2xl tracking-wide underline underline-offset-4">
+        Asesoría Legal
+      </h1>
       <p className="text-xl max-w-3xl mx-auto shadow-lg  p-6">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a nihil
-        delectus sapiente laudantium beatae in officiis. Soluta, dicta adipisci
-        inventore ipsum dolore molestiae dolorem.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a
+        <span className="text-red-800"> anihil </span>
+        delectus sapiente laudantium
+        <span className="text-red-800"> beatae</span> in officiis. Soluta, dicta
+        adipisci inventore ipsum dolore molestiae dolorem.
       </p>
       <Link href="/categorias">
         <p className="p-4 my-14 inline-block w-auto  rounded-md border-2 border-gray-500 text-lg md:duration-200 md:hover:scale-105">
