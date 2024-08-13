@@ -12,7 +12,7 @@
     animation-fill-mode: forwards;
   }
   .fade-in {
-    animation: fadeInAnimation ease 1s;
+    animation: fadeInAnimation ease 0.7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
