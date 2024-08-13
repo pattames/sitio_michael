@@ -13,7 +13,7 @@ export default function Servicio({ params }) {
   );
 
   return (
-    <div className="max-w-7xl mx-auto py-8 px-4 font-serif text-gray-800">
+    <div className="max-w-7xl mx-auto py-8 px-4 font-serif text-gray-800 fade-in">
       <h1 className="text-xl font-semibold underline underline-offset-4">
         {categoria.titulo}
       </h1>

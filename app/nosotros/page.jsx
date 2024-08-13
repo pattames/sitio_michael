@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Nosotros() {
   return (
-    <div className="max-w-7xl mx-auto font-serif text-center flex flex-wrap justify-center">
+    <div className="max-w-7xl mx-auto font-serif text-center flex flex-wrap justify-center fade-in">
       {abogados.map((abogado) => (
         <div key={abogado.id} className="m-6">
           <Image

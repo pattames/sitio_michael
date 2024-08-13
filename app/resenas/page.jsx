@@ -3,7 +3,7 @@ import { resenas } from "../data/resenas";
 
 export default function Resenas() {
   return (
-    <div className="max-w-7xl mx-auto px-4 font-serif text-xl text-gray-500 pt-8 flex justify-center flex-wrap sm:pt-12">
+    <div className="max-w-7xl mx-auto px-4 font-serif text-xl text-gray-500 pt-8 flex justify-center flex-wrap fade-in sm:pt-12">
       <Carousel />
       {resenas.map((resena) => (
         <div
