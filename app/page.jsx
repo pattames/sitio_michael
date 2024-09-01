@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <div className="fade-in">
         <h1 className="text-2xl tracking-wide underline underline-offset-4">
-          Asesoría Legal
+          Soluciones Legales
         </h1>
         <p className="text-xl max-w-3xl mx-auto shadow-lg  p-6">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et a
